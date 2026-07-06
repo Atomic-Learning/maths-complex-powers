@@ -1,0 +1,18 @@
+{
+    "title": "Mathematics: Powers and Roots of Complex Numbers",
+    "slug": "maths-complex-powers-roots",
+    "description": "Shows how to raise a complex number to an integer power and how to compute its nth roots using the polar form and De Moivre's theorem, including how the n distinct roots are distributed by the index k.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "maths"
+    ],
+    "duration": 7,
+    "prerequisites": [
+        "maths-complex-polar-form"
+    ],
+    "related": [
+        "maths-complex-modulus"
+    ]
+}
