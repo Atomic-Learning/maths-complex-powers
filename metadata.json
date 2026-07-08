@@ -9,7 +9,7 @@
         "maths",
         "complex-analysis"
     ],
-    "duration": 7,
+    "duration": 5,
     "prerequisites": [
         "maths-complex-polar-form"
     ],
