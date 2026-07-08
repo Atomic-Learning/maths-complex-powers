@@ -12,11 +12,9 @@ $$
 (r e^{i\phi})^n = r^n e^{in\phi}
 $$
 
-This theorem makes computing powers and roots much simpler than expanding them algebraically in rectangular form.
-
 # Why This Matters
 
-Using De Moivre's theorem to compute powers and roots is far simpler than expanding them algebraically. For instance, computing $(1 + i)^{10}$ by repeated multiplication would be tedious, but using De Moivre's theorem:
+Using De Moivre's theorem to compute powers of a complex number is far simpler than expanding them algebraically. For instance, computing $(1 + i)^{10}$ by repeated multiplication would be tedious, but using De Moivre's theorem:
 
 $$
 (1 + i)^{10} = (\sqrt{2})^{10} (\cos 450° + i \sin 450°) = 32(\cos 90° + i \sin 90°) = 32i
