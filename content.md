@@ -3,13 +3,13 @@
 **De Moivre's Theorem** is a powerful tool for computing integer powers and roots of complex numbers when they are expressed in polar form. It states that for a complex number in polar form and any integer $n$:
 
 $$
-[r(\cos \varphi + i \sin \varphi)]^n = r^n(\cos(n\varphi) + i \sin(n\varphi))
+[r(\cos \phi + i \sin \phi)]^n = r^n(\cos(n\phi) + i \sin(n\phi))
 $$
 
 In exponential notation, this becomes:
 
 $$
-(r e^{i\varphi})^n = r^n e^{in\varphi}
+(r e^{i\phi})^n = r^n e^{in\phi}
 $$
 
 This theorem makes computing powers and roots much simpler than expanding them algebraically in rectangular form.
@@ -18,12 +18,12 @@ This theorem makes computing powers and roots much simpler than expanding them a
 
 To compute $z^n$ where $z$ is in polar form:
 
-1. Express $z = r(\cos \varphi + i \sin \varphi)$
+1. Express $z = r(\cos \phi + i \sin \phi)$
 2. Raise the modulus to the $n$-th power: $r^n$
-3. Multiply the argument by $n$: $n\varphi$
-4. Write the result: $z^n = r^n(\cos(n\varphi) + i \sin(n\varphi))$
+3. Multiply the argument by $n$: $n\phi$
+4. Write the result: $z^n = r^n(\cos(n\phi) + i \sin(n\phi))$
 
-**Example:** Let $z = 1 + i$. Then $r = \sqrt{2}$ and $\varphi = 45°$.
+**Example:** Let $z = 1 + i$. Then $r = \sqrt{2}$ and $\phi = 45°$.
 
 $$
 z^2 = (\sqrt{2})^2 (\cos 90° + i \sin 90°) = 2i
@@ -40,7 +40,7 @@ $$
 De Moivre's theorem also applies to fractional exponents. The $n$-th roots of a complex number are:
 
 $$
-w_k = r^{1/n}\left(\cos\left(\frac{\varphi + 2\pi k}{n}\right) + i \sin\left(\frac{\varphi + 2\pi k}{n}\right)\right)
+w_k = r^{1/n}\left(\cos\left(\frac{\phi + 2\pi k}{n}\right) + i \sin\left(\frac{\phi + 2\pi k}{n}\right)\right)
 $$
 
 where $k = 0, 1, 2, \ldots, n-1$.
